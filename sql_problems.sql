@@ -38,6 +38,8 @@ FROM multiplication;
 */
 
 /*
-5.
+5.Your task is to sort the information in the provided table 'companies' by number of employees (high to low).
+
+select id, ceo, motto ,employees from companies order by employees DESC;
 
 */
