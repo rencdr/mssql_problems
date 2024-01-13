@@ -57,3 +57,9 @@ FROM otherangle;
 
 select n, n*n as res from square
 */
+/*
+8.Write a function which converts the input string to uppercase.
+
+SELECT s, UPPER(s) AS res
+FROM makeuppercase;
+*/
