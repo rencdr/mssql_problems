@@ -43,3 +43,12 @@ FROM multiplication;
 select id, ceo, motto ,employees from companies order by employees DESC;
 
 */
+/*
+6.You are given two interior angles (in degrees) of a triangle.
+Write a function to return the 3rd.
+
+SELECT a, b, 180 - a - b AS res
+FROM otherangle;
+
+
+*/
