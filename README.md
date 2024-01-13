@@ -1,2 +1,2 @@
-# mssql_problems
+# sql_problems
 Codewars, Hackerrank, Leetcode Problems
