@@ -79,4 +79,12 @@ FROM STATION
 WHERE CITY LIKE '%a' OR CITY LIKE '%e' OR CITY LIKE '%i' OR CITY LIKE '%o' OR CITY LIKE '%u';
 
 */
+/*
+11.Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+
+SELECT bool,
+       CASE WHEN bool THEN 'Yes' ELSE 'No' END AS res
+FROM booltoword;
+
+*/
 
