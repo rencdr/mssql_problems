@@ -118,5 +118,16 @@ INSERT INTO participants
 VALUES ('Can', 28, true);
 SELECT * FROM participants;
 */
+/*
+15.you need to return the same table where all letters are lowercase in the race column.
+
+SELECT 
+    id,
+    LOWER(name) AS name,
+    LOWER(birthday) AS birthday,
+    LOWER(race) AS race
+FROM 
+    demographics;
+*/
 
 
