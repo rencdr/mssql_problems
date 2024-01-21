@@ -175,5 +175,10 @@ Return a table with one column (mod) which is the output of number1 modulus numb
 
 SELECT number1 % number2 AS MOD from decimals
 */
+/*
+19.This code does not execute properly. Try to figure out why.
+SELECT price + amount AS total FROM items
 
+SELECT (price*amount) AS total FROM items
+*/
 
