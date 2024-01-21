@@ -181,4 +181,16 @@ SELECT price + amount AS total FROM items
 
 SELECT (price*amount) AS total FROM items
 */
+/*
+20.decimals table schema
+id
+number1
+number2
+Return a table with two columns (abs, log) where the values in abs are the absolute values of number1 and the values in log are values from number2 in logarithm to base 64.
+
+select 
+ abs(number1) abs,
+ log(64, number2) log
+from decimals
+*/
 
